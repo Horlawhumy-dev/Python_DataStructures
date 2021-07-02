@@ -48,7 +48,7 @@ def balanced(expression):
         if ex in '()':
             mystack.append(ex)
 
-    while index < len(mystack) an is_bal:
+    while index < len(mystack) and is_bal:
         paren = mystack[index]
         if paren == '(':
             s.push(paren)
